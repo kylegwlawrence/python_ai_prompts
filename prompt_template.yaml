@@ -1,0 +1,21 @@
+project:
+  name: "data_pipeline_example"
+  description: "A modular ETL Python project with replaceable modules, tests, and PEP-8 compliance."
+  libraries:
+    requests: "API calls for data extraction"
+    pandas: "Data transformation and manipulation"
+    sqlalchemy: "Database access"
+    logging: "Logging"
+  coding_rules:
+    - "Follow PEP-8 style strictly."
+    - "Include docstrings for all functions and modules."
+    - "Include inline comments where appropriate."
+    - "Use type hints for all functions."
+    - "Do not use list comprehensions unless necessary."
+    - "Include graceful and descriptive error handling."
+    - "Code should be modular for easy replacement of modules."
+    - "Include unit tests for each module."
+    - "Include a simple integration test to validate the full pipeline."
+  special_notes: |
+    - "Modules can be swapped by replacing their respective files."
+    - "Integration test ensures pipeline still works after module replacement."
