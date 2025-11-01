@@ -20,3 +20,26 @@ This is a simple modular ETL pipeline in Python. Swap out for your own code.
 ## Run tests
 ```python3 -m unittest discover tests```
 
+## Cloning this repo
+Steps for cloning this repo and removing history to start with a clean slate
+
+1. Clone the directory
+
+```git clone https://github.com/kylegwlawrence/python_ai_prompts.git```
+
+2. remove the git directory
+
+```rm -rf .git```
+
+3. init new git repo, add content, and commit
+
+```git init && git add . && git commit -m "first commit```
+
+4. add remote for destination repo
+
+```git remote add origin <destination_repo_url>```
+
+5. push new repo to empty remote
+
+```git push -u origin master```
+
